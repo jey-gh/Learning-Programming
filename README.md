@@ -1,2 +1,2 @@
 # Learnings
-Collection of things I did to learn programming.
+Collection of exercises and projects from my programming studies.
