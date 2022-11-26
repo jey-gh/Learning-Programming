@@ -1,2 +1,2 @@
-# Learnings
-Collection of exercises and projects from my programming studies.
+# Learning Programming
+This repository is a collection of projects from me learning programming.
