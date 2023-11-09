@@ -1,0 +1,27 @@
+Django Setup Notes
+
+Terminal commands
+*Depending on the PC, enter one of the commands listed to execute the respective action
+
+Install Django 
+pip install django
+python -m pip install django
+python -m pip install --user django
+
+Creating a project
+django-admin startproject projectName
+python -m django startproject projectName
+
+Starting a server
+python manage.py runserver
+
+Creating an app
+Python manage.py startapp appName
+
+*After an app is created, you will need to create a urls.py file in the app(name) directory.
+The root URLconf will need to point to the new app’s urls.py file.
+For example, add path("polls/", include("polls.urls")) to the root URLconf’s (root url.py’s) urlpatterns list.
+
+Glossary
+Django MVT
+Django follows MVT (Model, View, Template) architecture.
