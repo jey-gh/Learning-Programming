@@ -1,2 +1,2 @@
 # Learning Programming
-Collection of projects from programming learning journey.
+Files and projects from programming learning journey.
